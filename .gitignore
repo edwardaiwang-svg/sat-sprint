@@ -1,0 +1,17 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.gstack/
+
+# Unrelated projects sharing this folder — not part of the SAT Sprint repo
+vigil/
+MacTask/
+podcast-digest/
+
+# Release artifacts (zips/PDFs) and local agent config
+deliverable/
+.claude/
