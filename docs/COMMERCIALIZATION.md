@@ -1,6 +1,6 @@
 # Commercialization Brief — from prototype to marketable product
 
-**Status: SAT Sprint v1.0.0 is a validated prototype, not yet a marketable product.**
+**Status: SAT Sprint v1.0.1 is a validated prototype, not yet a marketable product.**
 This brief lays out what the market looks like (researched June 2026, sources cited), what's missing, and three productization paths. Companion to [PRODUCT_OVERVIEW.md](PRODUCT_OVERVIEW.md).
 
 ---

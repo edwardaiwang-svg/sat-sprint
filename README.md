@@ -21,6 +21,8 @@ Then open the URL it prints (usually <http://localhost:5173>).
 
 To make a production build: `npm run build` then `npm run preview`.
 To check the question bank: `npm run validate` (the pre-release quality gate).
+To run the unit tests: `npm test` (46 tests: grid-in matching, stats/weakest-skill, set selection, error-log graduation).
+Typecheck: `npm run typecheck`.
 
 > **Requirements:** Node 20.19+ or 22.12+ (required by Vite 8).
 
@@ -121,5 +123,19 @@ src/
 - A miss puts the question in your **error log**; it graduates out after **2 correct in a row**.
 - Your **weakest skill** is the lowest-accuracy skill you've attempted (ties go to the one with
   more attempts), and it drives the *Targeted drill* button.
+
+## Docs
+
+- [`docs/PRODUCT_OVERVIEW.md`](docs/PRODUCT_OVERVIEW.md) — what it is, design rationale, question-bank weighting
+- [`docs/DEMO_GUIDE.md`](docs/DEMO_GUIDE.md) — a 5-minute walkthrough
+- [`docs/QA_REPORT.md`](docs/QA_REPORT.md) — the release gates and what they check
+- [`docs/RELEASE_NOTES.md`](docs/RELEASE_NOTES.md)
+- [`docs/COMMERCIALIZATION.md`](docs/COMMERCIALIZATION.md) · [`docs/COMPETITORS.md`](docs/COMPETITORS.md) — market notes (June 2026)
+
+## License and trademark
+
+MIT — see `LICENSE`. SAT® is a trademark registered by the College Board, which is not
+affiliated with, and does not endorse, this project. No College Board material is used;
+every question in the seed bank is original.
 
 Enjoy the climb to 1560+. 📈

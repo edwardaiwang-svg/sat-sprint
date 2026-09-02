@@ -17,7 +17,7 @@ Pre-domain "perfection pass": a six-lens deep review (UX copy, accessibility, co
 
 ## v1.0.0 — 2026-06-09
 
-First release. A personalized Digital SAT practice web app built for a student raising a ~1500 (RW 710 / Math 790) toward 1560+, with Reading & Writing as the priority focus.
+First release. A personalized Digital SAT practice web app built for a student raising a ~1500 (Reading & Writing–weighted gap) toward 1560+, with Reading & Writing as the priority focus.
 
 ## Highlights
 

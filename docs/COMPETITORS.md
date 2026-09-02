@@ -71,7 +71,7 @@ The space is crowded — roughly **30 active competitors across five layers**, a
 
 ## What this means for us
 
-1. **The manager's instinct is correct** — paid B2C is saturated, and the free baseline is strong and getting stronger (Gemini's free Princeton-Review-vetted practice launched January 2026). A new paid consumer app fighting Khan + a dozen AI startups on question volume would lose.
+1. **The initial instinct is correct** — paid B2C is saturated, and the free baseline is strong and getting stronger (Gemini's free Princeton-Review-vetted practice launched January 2026). A new paid consumer app fighting Khan + a dozen AI startups on question volume would lose.
 2. **The free tier's gap is structural, not accidental:** 8 official tests, finite official bank, no teach-on-miss mechanic, no error-log graduation. Students who exhaust the official pool in 4–8 weeks are exactly the high-intent segment that pays.
 3. **Nobody owns our mechanic.** Competitors sell volume (8–28K questions) and AI chat tutors. None build the product around *re-proving every miss* (2-in-a-row graduation) with per-error trap teaching. It's a defensible pedagogical position — "the app for your last 100 points" — not a question-volume war we'd lose.
 4. **The B2B/tutor layer has ~3 serious players** vs ~15 in B2C. EdisonOS charges $299–1,499/yr for *infrastructure*; a white-label with actual pedagogy (our loop + AI generation at ~⅓¢/question) slots between EdisonOS and Test Innovators. This remains the recommended wedge.

@@ -1,6 +1,6 @@
 # SAT Sprint — Product Overview
 
-**Version 1.0.0 · Released 2026-06-09**
+**Version 1.0.1 · First released 2026-06-09**
 
 This is the entry point to the documentation set. Companion documents: [DEMO_GUIDE.md](DEMO_GUIDE.md) (a guided tour), [RELEASE_NOTES.md](RELEASE_NOTES.md), and [QA_REPORT.md](QA_REPORT.md) (quality gates, audit, and manual verification detail).
 
@@ -8,11 +8,11 @@ This is the entry point to the documentation set. Companion documents: [DEMO_GUI
 
 ## 1. Executive summary
 
-SAT Sprint is a personalized Digital SAT practice web app built for one student: currently scoring around 1500 (Reading & Writing 710, Math 790) and aiming for 1560+. Because nearly all of the headroom is in Reading & Writing, the app is deliberately weighted toward that section and, within it, toward the student's specific recurring mistakes. It ships with 52 original questions across all 8 official Digital SAT skill areas, plus practice, diagnostic, error-log, and progress-tracking features that adapt to where the student is actually losing points. The app is 100% client-side — React + Vite + TypeScript, all state in localStorage, no backend, no login, no analytics. An optional AI mode (off by default) can generate new questions, re-explain missed concepts, and grade free-response answers via the Anthropic API. Version 1.0.0 is feature-complete for its scope: all quality gates pass, a multi-agent content audit came back clean, and the full feature set has been manually verified.
+SAT Sprint is a personalized Digital SAT practice web app built for one student scoring in the ~1500 range with a Reading & Writing–weighted gap, aiming for 1560+. Because nearly all of the headroom is in Reading & Writing, the app is deliberately weighted toward that section and, within it, toward the student's specific recurring mistakes. It ships with 52 original questions across all 8 official Digital SAT skill areas, plus practice, diagnostic, error-log, and progress-tracking features that adapt to where the student is actually losing points. The app is 100% client-side — React + Vite + TypeScript, all state in localStorage, no backend, no login, no analytics. An optional AI mode (off by default) can generate new questions, re-explain missed concepts, and grade free-response answers via the Anthropic API. Version 1.0.0 is feature-complete for its scope: all quality gates pass, a multi-agent content audit came back clean, and the full feature set has been manually verified.
 
 ## 2. The user and the problem
 
-The user is a single student preparing for the Digital SAT, sitting at roughly 1500 with a 710/790 split between Reading & Writing and Math. To reach 1560+, the gains have to come mostly from RW, and within RW from a known list of weak spots rather than generic practice volume.
+The user is a single student preparing for the Digital SAT, sitting at roughly 1500 with most of the headroom in Reading & Writing. To reach 1560+, the gains have to come mostly from RW, and within RW from a known list of weak spots rather than generic practice volume.
 
 Those weak spots drive the design:
 
@@ -57,7 +57,7 @@ The bank contains **52 original questions** spanning all 8 official Digital SAT 
 | Math | Advanced Math | 3 |
 | | **Total** | **52** |
 
-**Weighting rationale.** The distribution is deliberately uneven. RW accounts for 37 of 52 questions because that is where the score gap is, and Standard English Conventions alone gets 14 because it is the student's single weakest area. Within skills, items target the documented mistake patterns: comma rules and sentence boundaries, agreement across interrupters, modifiers, Words in Context, "most strongly supported" inference, and in Math, unit/area conversions and slope signs. The small math bank (3–4 per skill) is a design decision, not an omission — Math is at 790 and only needs careless-error maintenance.
+**Weighting rationale.** The distribution is deliberately uneven. RW accounts for 37 of 52 questions because that is where the score gap is, and Standard English Conventions alone gets 14 because it is the student's single weakest area. Within skills, items target the documented mistake patterns: comma rules and sentence boundaries, agreement across interrupters, modifiers, Words in Context, "most strongly supported" inference, and in Math, unit/area conversions and slope signs. The small math bank (3–4 per skill) is a design decision, not an omission — Math is near the ceiling and only needs careless-error maintenance.
 
 **Copyright stance.** All 52 questions are original items written to match the Digital SAT's format and difficulty. Nothing is copied from College Board materials.
 
